@@ -1,0 +1,159 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(116, 108, 108);
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Títulos */
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 17px;
+    color: #222;
+    font: serif; font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Parágrafos */
+  p {
+    margin-bottom: 13px;
+    font: serif; font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Links */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Listas */
+  ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Container centralizado */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Cabeçalho e rodapé */
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    font: serif; font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Navegação */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  nav a {
+    color: #fff;
+    padding: 5px 10px;
+  }
+  
+  /* Seções */
+  section {
+    padding: 20px 0;
+  }
+  
+  /* Botões */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  /* Divisões e espaços */
+
+  #raiocomraio {
+    color: #000000;
+    padding: 5px 5px;
+    font-size: 50px;
+    font: serif; font-family: 'Times New Roman', Times, serif;
+
+}
+  /* Main */
+ main {
+    font: serif; font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;         /* ajusta o tamanho dos títulos */
+
+ }
+ /* Estilos padrão */
+body {
+    background-color: rgb(116, 108, 108);
+    font-size: 16px;
+    /* outros estilos... */
+  }
+  
+  /* Media Query para telas menores que 600px */
+  @media (max-width: 600px) {
+    body {
+      background-color: rgb(116, 108, 108); /* nova cor de fundo */
+      font-size: 14px;         /* diminui o tamanho da fonte */
+    }
+  
+    header, footer {
+      padding: 10px;           /* reduz o espaçamento */
+      font-size: 16px;         /* ajusta o tamanho da fonte nesses elementos */
+    }
+  
+    h1 {
+      font-size: 20px;         /* ajusta o tamanho dos títulos */
+    }
+  }
+  #tamotentandopreso {
+    padding: 20px;               /* Aumenta o espaço interno entre o conteúdo e a borda */
+    border: 10px solid #636363;     /* Adiciona uma borda de 2px, cor vermelha */
+    margin: 30px 10px;           /* Define 30px de margem vertical e 10px de margem horizontal */
+    background-color: #bbbbbb;      /* Cor de fundo para melhor visualização dos espaços */
+    border-radius: 15px; /* Define bordas arredondadas com raio de 10px */
+    display: flex;            /* Torna o container flexível */
+    align-items: flex-start;  /* Alinha os itens no topo (opcional) */
+    gap: 20px;                /* Espaçamento horizontal entre texto e vídeo (opcional) */
+  }
+  #solto {
+    font-size: 31px;         /* ajusta o tamanho dos títulos */
+    color: #ff4336;
+
+  }
+  .texto {
+    flex: 2;   /* Faz o texto ocupar 2 partes */
+  }
+  
+  .video {
+    flex: 1;   /* Faz o vídeo ocupar 1 parte */
+  }
+  @media (max-width: 600px) {
+    #tamotentandopreso {
+      flex-direction: column;  /* Empilha o texto e o vídeo em tela pequena */
+    }
+  }
+  
